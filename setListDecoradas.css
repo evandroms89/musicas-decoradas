@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #858377;
+    line-height: 1.6;
+    background-color: #fff;
+    font-size: 1.2rem;
+    background-color: #e8e8db;
+}
+
+p {
+    padding: 2.5rem 1.5rem;
+}
+
+.h1aa{
+    position: absolute;
+    top: 25px;
+    left:21px;
+    line-height: 10px;
+    color: #ffdf65;
+}
+
+.h1ab{
+    position: absolute;
+    top: 60px;
+    left:15px;
+    line-height: 10px;
+    color: #ffe0656b;
+}
+
+.h1ac{
+    position: absolute;
+    top: 96px;
+    left:19px;
+    line-height: 10px;
+    color: #ffe0659a;
+    
+}
+
+.h2a{
+    position: absolute;
+    top: 32px;
+    left:40px;
+    line-height: 22px;
+    /*color: #6b9fc2;*/
+    color: #858377b6;
+    font-size: 1.8rem;
+}
+
+select {
+    font-family: 'Poppins', sans-serif;
+    color: #858377;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    border: solid #b9b7aa 1px;
+    background-color: #e8e8db;
+}
+
+option {
+    font-family: 'Poppins', sans-serif;
+    color: #858377;
+    line-height: 1.6;
+}
+
+.btn {
+    background: #858377;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+    color: #ffdf65;
+    background: #858377;
+}
+
+.header{
+    margin:0 auto;
+    width: 750px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #858377;
+}
+
+.resposta{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    width: 750px;
+    margin:0 auto;
+    background-color: #e8e8db;
+}
+
+.resposta2{
+    width: 750px;
+    margin: 0 auto;
+    background-color: #e8e8db;
+    line-height: 2.7rem;
+}
+
+.l1 {
+    color: #858377;
+    background-color: #d4d4c7;
+}
+
+.l1:hover {
+    background-color: #ffdf65;
+}
+
+.l1 a {
+    text-decoration: none;
+    color: #858377;
+}
+
+.l2 {
+    color: #858377;
+    background-color: #e8e8db;
+}
+
+.l2 a {
+    text-decoration: none;
+    color: #858377;
+}
+
+.l2:hover {
+    background-color: #ffdf65;
+}
+
+.d0{
+    margin:10px auto;
+    width:200px;
+    height:100px;
+}
+
+.d1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #858377;
+    background-color: #e8e8db;
+    text-align: center;
+    border: solid #b9b7aa 1px;
+}
+
+.d1:hover {
+    color: #ffdf65;
+    background-color: #a19f94;
+    transform: scale(0.98);
+}
+
+.d1 a {
+    text-decoration: none;
+    color: #858377;
+}
+
+.d1 a:hover {
+    color: #ffdf65;
+    background-color: #a19f94;
+    transform: scale(0.98);
+}
+
+.d1b {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+}
+
+.contem {
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    font-size: 1.1rem;
+    text-align: left;
+    padding-left: 25px;
+    color: #858377;
+    width: 750px;
+    margin: -10px auto;
+}
+
+footer {
+    width: 750px;
+    height: 100px;
+    bottom: 0px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+}
+
+@media(max-width: 500px) {
+
+    body{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .h1aa{
+        position: static;
+        
+        line-height: 10px;
+        color: #ffdf65;
+    }
+    
+    .h1ab{
+        position: static;
+        
+        line-height: 10px;
+        color: #ffe0656b;
+    }
+    
+    .h1ac{
+        position: static;
+        
+        line-height: 10px;
+        color: #ffe0659a;
+        
+    }
+    
+    .h2a{
+        position: static;
+       
+        line-height: 22px;
+        /*color: #6b9fc2;*/
+        color: #858377b6;
+        font-size: 1.8rem;
+    }
+
+    .header{
+        margin:0 auto;
+        width: 500px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: #858377;
+        line-height: 2.5rem;
+    }
+    
+    .resposta{
+        display: grid;
+        grid-template-columns: repeat(2, 220px);
+        width: 440px;
+        margin:0 auto;
+        background-color: #e8e8db;
+    }
+
+    .resposta2{
+        width: 415px;
+        margin: 0 auto;
+        background-color: #e8e8db;
+        line-height: 2.7rem;
+    }
+
+    .contem {
+        width: 470px;
+        margin-top: -40px;
+    }
+
+    footer {
+        width: 500px;
+        height: 100px;
+        bottom: 0px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+}
+
+
