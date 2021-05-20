@@ -210,21 +210,21 @@ footer {
 
     .h1aa{
         position: static;
-        
         line-height: 10px;
         color: #ffdf65;
+        font-size: 2.6rem;
     }
     
     .h1ab{
         position: static;
-        
         line-height: 10px;
         color: #ffe0656b;
+        font-size: 2.6rem;
     }
     
     .h1ac{
+        display: none;
         position: static;
-        
         line-height: 10px;
         color: #ffe0659a;
         
@@ -232,7 +232,6 @@ footer {
     
     .h2a{
         position: static;
-       
         line-height: 22px;
         /*color: #6b9fc2;*/
         color: #858377b6;
@@ -241,7 +240,7 @@ footer {
 
     .header{
         margin:0 auto;
-        width: 500px;
+        width: 300px;
         text-align: center;
         font-family: 'Poppins', sans-serif;
         color: #858377;
@@ -250,22 +249,34 @@ footer {
     
     .resposta{
         display: grid;
-        grid-template-columns: repeat(2, 220px);
-        width: 440px;
+        grid-template-columns: repeat(2, 150px);
+        width: 300px;
         margin:0 auto;
         background-color: #e8e8db;
     }
 
+    .d0{
+        margin:10px auto;
+        width:130px;
+        height:100px;
+    }    
+
     .resposta2{
-        width: 415px;
+        width: 300px;
         margin: 0 auto;
         background-color: #e8e8db;
         line-height: 2.7rem;
+        font-size: 1rem;
+    }
+
+    .resposta2 h1{
+        font-size: 1.8rem;
     }
 
     .contem {
-        width: 470px;
+        width: 300px;
         margin-top: -40px;
+        font-size: 0.8rem;
     }
 
     footer {
@@ -278,5 +289,7 @@ footer {
     }
     
 }
+
+
 
 
