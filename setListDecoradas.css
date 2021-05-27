@@ -54,6 +54,7 @@ p {
     /*color: #6b9fc2;*/
     color: #858377b6;
     font-size: 1.8rem;
+    text-decoration: none;
 }
 
 select {
@@ -384,6 +385,8 @@ footer {
     }
     
 }
+
+
 
 
 
