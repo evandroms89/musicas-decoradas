@@ -510,16 +510,16 @@ function listaCompleta() {
             resposta2.appendChild(l1)
             l1.innerHTML += `<strong><a href="http://www.letras.mus.br/?q=${musicasNacionais[a].Artista}+${musicasNacionais[a].Música}" target="_blank"><h3>
             ${musicasNacionais[a].Artista}:</strong>` + ` ${musicasNacionais[a].Música}</h3></a>
-            <a href="http://www.cifraclub.com.br/${musicasNacionais[a].Artista.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(" ").join("-")}/${musicasNacionais[a].Música.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(" ").join("-")}/" target="_blank"><h2> CifraClub</a> | 
-            <a href="http://youtube.com/results?search_query=${musicasNacionais[a].Artista}+${musicasNacionais[a].Música}" target="_blank">Youtube</h2></a><br>`
+            <a href="http://www.cifraclub.com.br/${musicasNacionais[a].Artista.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(" ").join("-")}/${musicasNacionais[a].Música.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(" ").join("-")}/" target="_blank"><img class="logo" src="imagens/cifraclub1.png"></a> 
+            <a href="http://youtube.com/results?search_query=${musicasNacionais[a].Artista}+${musicasNacionais[a].Música}" target="_blank"><img class="logo" src="imagens/youtube1.png"></h2></a><br>`
         } else {
             let l2 = document.createElement('div')
             l2.setAttribute('class', 'l2')
             resposta2.appendChild(l2)
             l2.innerHTML += `<strong><a href="http://www.letras.mus.br/?q=${musicasNacionais[a].Artista}+${musicasNacionais[a].Música}" target="_blank"><h3>
             ${musicasNacionais[a].Artista}:</strong>` + ` ${musicasNacionais[a].Música}</h3></a>
-            <a href="http://www.cifraclub.com.br/${musicasNacionais[a].Artista.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(" ").join("-")}/${musicasNacionais[a].Música.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(" ").join("-")}/" target="_blank"><h2> CifraClub</a> | 
-            <a href="http://youtube.com/results?search_query=${musicasNacionais[a].Artista}+${musicasNacionais[a].Música}" target="_blank">Youtube</h2></a><br>`
+            <a href="http://www.cifraclub.com.br/${musicasNacionais[a].Artista.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(" ").join("-")}/${musicasNacionais[a].Música.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(" ").join("-")}/" target="_blank"><img class="logo" src="imagens/cifraclub1.png"></a> 
+            <a href="http://youtube.com/results?search_query=${musicasNacionais[a].Artista}+${musicasNacionais[a].Música}" target="_blank"><img class="logo" src="imagens/youtube1.png"></h2></a><br>`
         }
     }
 
