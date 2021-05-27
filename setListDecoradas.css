@@ -6,6 +6,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 body {
@@ -93,6 +94,32 @@ option {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: #858377;
+}
+
+h2{
+    position: relative;
+    right: 10px;
+    font-size: 1.2rem;
+    display: inline;
+    font-weight: normal;
+    float: right;
+}
+
+h2 a:hover {
+    font-weight: bold;
+}
+
+h3{
+    position: relative;
+    left: 10px;
+    font-weight: normal;
+    font-size: 1.2rem;
+    display: inline;
+}
+
+h3:hover {
+    font-weight: bolder;
+    color: #2e2e2cb6;
 }
 
 .resposta{
@@ -237,6 +264,7 @@ footer {
         /*color: #6b9fc2;*/
         color: #858377b6;
         font-size: 1.6rem;
+        text-decoration: none;
     }
 
     .header{
@@ -272,6 +300,27 @@ footer {
 
     .resposta2 h1{
         font-size: 1.8rem;
+    }
+
+    h2{
+        position: relative;
+        right: 10px;
+        font-size: 1rem;
+        display: block;
+        font-weight: normal;
+        float: right;
+        line-height: 3rem;
+    }
+    
+  
+    
+    h3{
+        position: static;
+        padding-left: 5px;
+        padding-top: 4px;
+        font-weight: normal;
+        display: block;
+        line-height: 1.5rem;
     }
 
     .contem {
@@ -332,7 +381,9 @@ footer {
         /*color: #6b9fc2;*/
         color: #858377b6;
         font-size: 1.8rem;
+        text-decoration: none;
     }
+
 
     .header{
         margin:0 auto;
@@ -342,6 +393,7 @@ footer {
         color: #858377;
         line-height: 2.5rem;
     }
+  
     
     .resposta{
         display: grid;
@@ -361,12 +413,35 @@ footer {
         width: 300px;
         margin: 0 auto;
         background-color: #e8e8db;
-        line-height: 2.7rem;
+        line-height: 2rem;
         font-size: 1rem;
     }
 
     .resposta2 h1{
         font-size: 1.8rem;
+    }
+
+        
+    h2{
+        position: relative;
+        right: 10px;
+        font-size: 0.77rem;
+        display: block;
+        font-weight: normal;
+        float: right;
+        line-height: 2rem;
+    }
+    
+  
+    
+    h3{
+        position: static;
+        padding-left: 5px;
+        padding-top: 4px;
+        font-weight: normal;
+        font-size: 0.9rem;
+        display: block;
+        line-height: 1.2rem;
     }
 
     .contem {
