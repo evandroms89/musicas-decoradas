@@ -86,6 +86,7 @@ option {
     transform: scale(0.98);
     color: #ffdf65;
     background: #858377;
+    cursor: pointer;
 }
 
 .header{

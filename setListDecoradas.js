@@ -362,10 +362,6 @@ let musicasNacionais = [
     },
     {
         Artista: 'Lô Borges',
-        Música: 'Trem Azul'
-    },
-    {
-        Artista: 'Lô Borges',
         Música: 'Paisagem da Janela'
     },
     {
@@ -644,7 +640,7 @@ function listaCompleta() {
 
     
 
-
+listaCompleta()
 
 botaoPesquisar.onclick = musicaPorArtista
 
