@@ -17,6 +17,10 @@ let musicasNacionais = [
         Música: 'Trem das Onze'
     },
     {
+        Artista: 'Aerosmith',
+        Música: 'Dream on'
+    },
+    {
         Artista: 'Alceu Valença',
         Música: 'Anunciação'
     },
@@ -27,6 +31,10 @@ let musicasNacionais = [
     {
         Artista: 'Baden Powell',
         Música: 'Tempo de amor'
+    },
+    {
+        Artista: 'Beatles',
+        Música: 'Ticket to Ride'
     },
     {
         Artista: 'Belchior',
@@ -45,8 +53,16 @@ let musicasNacionais = [
         Música: 'Sujeito de Sorte'
     },
     {
+        Artista: 'Bob Dylan',
+        Música: 'Blowin in the wind'
+    },
+    {
         Artista: 'Caetano Veloso',
         Música: 'Alegria Alegria'
+    },
+    {
+        Artista: 'Caetano Veloso',
+        Música: 'Cajuína'
     },
     {
         Artista: 'Caetano Veloso',
@@ -73,6 +89,18 @@ let musicasNacionais = [
         Música: 'You dont know me'
     },
     {
+        Artista: 'Capital Inicial',
+        Música: 'À sua maneira'
+    },
+    {
+        Artista: 'Capital Inicial',
+        Música: 'Fátima'
+    },
+    {
+        Artista: 'Capital Inicial',
+        Música: 'O Passageiro'
+    },
+    {
         Artista: 'Carlos Posada',
         Música: 'Norte'
     },
@@ -89,8 +117,20 @@ let musicasNacionais = [
         Música: 'Malandragem'
     },
     {
+        Artista: 'Cássia Eller',
+        Música: 'Por enquanto'
+    },
+    {
+        Artista: 'Cazuza',
+        Música: 'Exagerado'
+    },
+    {
         Artista: 'Cazuza',
         Música: 'O tempo não para'
+    },
+    {
+        Artista: 'Cazuza',
+        Música: 'Só pro meu prazer'
     },
     {
         Artista: 'Chico Buarque',
@@ -111,6 +151,14 @@ let musicasNacionais = [
     {
         Artista: 'Criolo',
         Música: 'Não existe amor em SP'
+    },
+    {
+        Artista: 'Daniela Mercury',
+        Música: 'Nobre Vagabundo'
+    },
+    {
+        Artista: 'Djavan',
+        Música: 'Açaí'
     },
     {
         Artista: 'Djavan',
@@ -149,6 +197,10 @@ let musicasNacionais = [
         Música: 'De volta pro aconchego'
     },
     {
+        Artista: 'Eagle-Eye Cherry',
+        Música: 'Save Tonight'
+    },
+    {
         Artista: 'Falamansa',
         Música: 'Rindo à toa'
     },
@@ -181,12 +233,28 @@ let musicasNacionais = [
         Música: 'Palco'
     },
     {
+        Artista: 'Gilsons',
+        Música: 'Várias Queixas'
+    },
+    {
         Artista: 'Gonzaguinha',
         Música: 'Comportamento Geral'
     },
     {
+        Artista: 'Green Day',
+        Música: 'Holiday'
+    },
+    {
         Artista: 'Itamar Assumpção',
         Música: 'Eu tenho medo'
+    },
+    {
+        Artista: 'Jack Johnson',
+        Música: 'Sitting, Waiting, Wishing'
+    },
+    {
+        Artista: 'Jack Johnson',
+        Música: 'Upside Down'
     },
     {
         Artista: 'João Gilberto',
@@ -197,8 +265,16 @@ let musicasNacionais = [
         Música: 'Este seu olhar'
     },
     {
-        Artista: 'Lara Thomaz',
-        Música: 'Desabafo Pisciano'
+        Artista: 'Jorge Ben Jor',
+        Música: 'Chove Chuva'
+    },
+    {
+        Artista: 'Jorge Ben Jor',
+        Música: 'Fio Maravilha'
+    },
+    {
+        Artista: 'Jorge Mautner',
+        Música: 'Lágrimas Negras'
     },
     {
         Artista: 'Lenine',
@@ -250,7 +326,15 @@ let musicasNacionais = [
     },
     {
         Artista: 'Legião Urbana',
+        Música: 'Ainda é Cedo'
+    },
+    {
+        Artista: 'Legião Urbana',
         Música: 'Eu Sei'
+    },
+    {
+        Artista: 'Legião Urbana',
+        Música: 'Geração Coca-Cola'
     },
     {
         Artista: 'Legião Urbana',
@@ -270,7 +354,19 @@ let musicasNacionais = [
     },
     {
         Artista: 'Legião Urbana',
+        Música: 'Será'
+    },
+    {
+        Artista: 'Legião Urbana',
         Música: 'Tempo Perdido'
+    },
+    {
+        Artista: 'Lô Borges',
+        Música: 'Trem Azul'
+    },
+    {
+        Artista: 'Lô Borges',
+        Música: 'Paisagem da Janela'
     },
     {
         Artista: 'Lô Borges',
@@ -333,12 +429,20 @@ let musicasNacionais = [
         Música: 'Resposta'
     },
     {
+        Artista: 'Natiruts',
+        Música: 'Presente de um Beija-Flor'
+    },
+    {
         Artista: 'Novos Baianos',
         Música: 'Mistério do Planeta'
     },
     {
         Artista: 'Oswaldo Montenegro',
         Música: 'Bandolins'
+    },
+    {
+        Artista: 'O Rappa',
+        Música: 'Pescador de Ilusões'
     },
     {
         Artista: 'Paralamas do Sucesso',
@@ -379,6 +483,14 @@ let musicasNacionais = [
     {
         Artista: 'Tim Maia',
         Música: 'Dia de Domingo'
+    },
+    {
+        Artista: 'Tim Maia',
+        Música: 'Ela Partiu'
+    },
+    {
+        Artista: 'Tim Maia',
+        Música: 'Gostava tanto de você'
     },
     {
         Artista: 'Zé Ramalho',
