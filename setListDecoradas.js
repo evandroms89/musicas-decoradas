@@ -8,10 +8,7 @@ let contem = document.getElementById('contem')
 
 
 let musicasNacionais = [
-    {
-        Artista: 'Aborto Elétrico',
-        Música: 'Fátima'
-    },
+ 
     {
         Artista: 'Adoniran Barbosa',
         Música: 'Trem das Onze'
